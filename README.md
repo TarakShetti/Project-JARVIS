@@ -1,5 +1,5 @@
 # Project-JARVIS
-JARVIS Local AI Assistant
+JARVIS Local Assistant
 JARVIS is a personal voice assistant application built using Python, which can interact with the user via voice commands.
 provide functionalities such as playing music, telling the current time, retrieving Wikipedia summaries, telling jokes, and opening local applications. The user interface features a dynamic animated "snake" effect, making the assistant's interaction more visually appealing.
 
