@@ -26,7 +26,7 @@
 
 **JARVIS** is a local, highly-responsive personal voice assistant designed to emulate the aesthetics and functionality of futuristic AI. Equipped with an interactive, mathematically animated "orb/snake" GUI interface, it provides a visually captivating experience while seamlessly executing your desktop commands.
 
-> **Note:** All processing runs completely *locally*, ensuring maximum privacy and offline capability for automation tasks!
+> **Note:** This python project runs best on Windows due to specific OS-level automation commands. An active internet connection is required for cloud speech recognition capabilities.
 
 ---
 
@@ -97,7 +97,7 @@ Ready to boot up the system? Follow these steps:
 
 3. **Initialize JARVIS**
    ```bash
-   python main.py
+   python "JARVIS ASSISTANT.py"
    ```
    *Wait for the dark-mode interface to appear, and begin speaking!*
 
