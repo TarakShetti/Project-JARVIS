@@ -1,37 +1,136 @@
-# Project-JARVIS
-JARVIS Local Assistant
-JARVIS is a personal voice assistant application built using Python, which can interact with the user via voice commands.
-provide functionalities such as playing music, telling the current time, retrieving Wikipedia summaries, telling jokes, and opening local applications. The user interface features a dynamic animated "snake" effect, making the assistant's interaction more visually appealing.
+<div align="center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ffcc&height=200&section=header&text=J.A.R.V.I.S.&fontSize=80&fontAlignY=35&desc=Your%20Personal%20Local%20AI%20Assistant&descAlignY=55&descAlign=50" alt="JARVIS Header">
 
-**Features**
-Voice Recognition: Responds to voice commands and can perform actions such as playing music, telling the time, searching Wikipedia, telling jokes, etc.
-Voice Feedback: Uses text-to-speech (TTS) to speak back to the user.
-Application Control: Opens local applications such as Notepad, Calculator, Chrome, Microsoft Office apps (Word, Excel, etc.), and more.
-Real-Time Updates: Status messages are displayed in the GUI to show the assistant's actions.
-Animated Snake: The GUI includes an animated snake effect that adds a fun and dynamic visual element to the app.
+  <h1>✨ Project J.A.R.V.I.S. ✨</h1>
 
-**Requirements**
-To run this project, you need Python and the following libraries:
+  <p>
+    <b>A powerful, futuristic, local voice assistant application built with Python.</b>
+  </p>
 
-speech_recognition (for voice recognition)
-pyttsx3 (for text-to-speech conversion)
-pywhatkit (for interacting with YouTube and other services)
-wikipedia (for fetching data from Wikipedia)
-pyjokes (for telling jokes)
-tkinter (for creating the graphical user interface)
-math (for the snake animation)
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
+    <img src="https://img.shields.io/badge/UI-Tkinter-00ffcc?style=for-the-badge&logo=appveyor" alt="Tkinter GUI">
+    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status Active">
+    <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
+  </p>
+  
+  <p>
+    <i>"Just A Rather Very Intelligent System"</i>
+  </p>
+</div>
 
-**Commands**
-Here are some sample voice commands you can give to JARVIS:
+---
 
-Play music: "JARVIS, play [song name]."
-Tell the time: "JARVIS, what time is it?"
-Search Wikipedia: "JARVIS, who is [person name]?"
-Tell a joke: "JARVIS, tell me a joke."
-Open applications: "JARVIS, open [application name]." (e.g., "notepad", "calculator", "chrome")
-The assistant also responds to commands like "who are you", "what can you do", or "stop" to end the session.
+## 🌌 Overview
 
+**JARVIS** is a local, highly-responsive personal voice assistant designed to emulate the aesthetics and functionality of futuristic AI. Equipped with an interactive, mathematically animated "orb/snake" GUI interface, it provides a visually captivating experience while seamlessly executing your desktop commands.
 
-**Acknowledgments**
-Thanks to the authors of SpeechRecognition, pyttsx3, pywhatkit, wikipedia, and pyjokes for their amazing libraries.
-This project was inspired by JARVIS, the fictional AI assistant from the Iron Man franchise.
+> **Note:** All processing runs completely *locally*, ensuring maximum privacy and offline capability for automation tasks!
+
+---
+
+## ⚡ Core Features
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h3>🎙️ Voice Recognition</h3>
+      <p>Locally captures and understands your natural voice commands instantly.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🗣️ Neural TTS</h3>
+      <p>Provides rich, spoken feedback to your queries using local Text-to-Speech engines.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🖥️ Local Automation</h3>
+      <p>Instantly launch apps like Chrome, Notepad, Calculator, or Microsoft Office.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h3>🌐 Web Intelligence</h3>
+      <p>Fetches real-time Wikipedia summaries and pulls information directly from the web.</p>
+    </td>
+    <td align="center">
+      <h3>🎭 Interactive Visualizer</h3>
+      <p>A beautifully animated interface that dynamically reacts to its current processing state.</p>
+    </td>
+    <td align="center">
+      <h3>🎵 Media & Entertainment</h3>
+      <p>Plays your favorite music on YouTube and tells you jokes on demand.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack & Requirements
+
+To harness the power of JARVIS, ensure your system is equipped with the following dependencies:
+
+| Category | Technology / Library | Purpose |
+| :--- | :--- | :--- |
+| **Core** | `Python 3.7+` | Base runtime environment |
+| **Interface** | `tkinter`, `math` | Frameless, animated desktop GUI |
+| **Voice In** | `SpeechRecognition` | Audio capture and transcription |
+| **Voice Out** | `pyttsx3` | Text-to-Speech synthesizer |
+| **Web Data** | `wikipedia`, `pywhatkit` | Information retrieval and media playback |
+| **Humor** | `pyjokes` | Internal humor module |
+
+---
+
+## 🚀 Quick Start Guide
+
+Ready to boot up the system? Follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/TarakShetti/Project-JARVIS.git
+   cd Project-JARVIS
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Initialize JARVIS**
+   ```bash
+   python main.py
+   ```
+   *Wait for the dark-mode interface to appear, and begin speaking!*
+
+---
+
+## 🗣️ Command Directory
+
+<details>
+<summary><b>Click here to view the master list of voice commands</b></summary>
+<br>
+
+* **Play Media**: 
+  > `"JARVIS, play [song name]"`
+* **Check Time**: 
+  > `"JARVIS, what time is it?"`
+* **Information Retrieval**: 
+  > `"JARVIS, who is [person name]?"`
+* **Entertainment**: 
+  > `"JARVIS, tell me a joke"`
+* **Application Control**: 
+  > `"JARVIS, open [application name]"` *(e.g., notepad, calculator, chrome)*
+* **System Status**: 
+  > `"who are you"`, `"what can you do"`
+* **Shutdown Sequence**: 
+  > `"stop"`, `"goodbye"`
+
+</details>
+
+---
+
+<div align="center">
+  <p>Built with 🩵 and Python.</p>
+  <p><i>Inspired by the Iron Man franchise. Thanks to all open-source library authors!</i></p>
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ffcc&height=100&section=footer" width="100%" alt="Footer Banner">
+</div>
